@@ -37,8 +37,8 @@ int main(void) {
     if (playerMove == computerMove) {
         printf("It's a tie!\n");
     } else if (computerMove + 1 == playerMove || computerMove - 2 == playerMove) {
-        printf("You win!\n");
+        printf("Nice! You win!\n");
     } else {
-        printf("You lose!\n");
+        printf("HaHa! You lose!\n");
     }
 }
