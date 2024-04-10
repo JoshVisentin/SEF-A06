@@ -42,9 +42,9 @@ int main(void) {
         if (playerMove == computerMove) {
             printf("It's a tie!\n");
         } else if (computerMove + 1 == playerMove || computerMove - 2 == playerMove) {
-            printf("Nice! You win!\n");
+            printf("%s beats %s, You win!\n", moveOpts[playerMove], moveOpts[computerMove]);
         } else {
-            printf("Ha Ha! You lose!\n");
+            printf("%s beats %s, You lose!\n", moveOpts[computerMove], moveOpts[playerMove]);
         }
     }
 }
